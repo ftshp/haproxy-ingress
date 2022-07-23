@@ -42,6 +42,7 @@ type ConverterOptions struct {
 	TrackInstances   bool
 	HasGateway       bool
 	UpdateStatus     bool
+	VerifyHostname   bool
 }
 
 // DynamicConfig ...

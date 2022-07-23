@@ -149,5 +149,6 @@ type CrtFile struct {
 	Filename   string
 	SHA1Hash   string
 	CommonName string
+	DNSNames   []string
 	NotAfter   time.Time
 }
